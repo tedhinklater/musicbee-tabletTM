@@ -44,9 +44,9 @@
 	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="Panel.Center" x="-90" yAnchor="Panel.Center" y="50" width="200" height="200" onClick="PlayPrevious"></element>
 	<element type="Text" xAnchor="Panel.Center" x="-125" yAnchor="Panel.Center" y="50" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="150" fg="0,0,0" onClick="PlayPrevious" showMouseHand="false">&#xE100;</element>
 
-	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="Panel.Center" x="310" yAnchor="Panel.Center" y="50" width="200" height="200" onClick="PlayPause"></element>
-	<element type="Text" xAnchor="Panel.Center" x="275" yAnchor="Panel.Center" y="50" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="150" fg="0,0,0" onClick="PlayPause" visibleTrigger="Playing" showMouseHand="false">&#xE103;</element>
-	<element type="Text" xAnchor="Panel.Center" x="275" yAnchor="Panel.Center" y="50" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="150" fg="0,0,0" onClick="PlayPause" visibleTrigger="NotPlaying" showMouseHand="false">&#xE102;</element>
+	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="Panel.Center" x="315" yAnchor="Panel.Center" y="50" width="200" height="200" onClick="PlayPause"></element>
+	<element type="Text" xAnchor="Panel.Center" x="280" yAnchor="Panel.Center" y="50" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="150" fg="0,0,0" onClick="PlayPause" visibleTrigger="Playing" showMouseHand="false">&#xE103;</element>
+	<element type="Text" xAnchor="Panel.Center" x="280" yAnchor="Panel.Center" y="50" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="150" fg="0,0,0" onClick="PlayPause" visibleTrigger="NotPlaying" showMouseHand="false">&#xE102;</element>
 
 	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="#SpacerC.100" x="-125" yAnchor="Panel.Center" y="50" width="200" height="200" onClick="PlayNext"></element>
 	<element type="Text" xAnchor="#SpacerC.100" x="-160" yAnchor="Panel.Center" y="50" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="150" fg="0,0,0" onClick="PlayNext" showMouseHand="false">&#xE101;</element>
