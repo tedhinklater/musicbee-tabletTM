@@ -21,10 +21,10 @@
 
 	<!-- Album Carousel -->
 	<!-- Change "Tracks[x]" to "Albums[x]" if you don't want to see the same album cover repeated many times. -->
-	<element name="#Cover_04" type="AlbumCover" id="Albums[4]" xAnchor="#SpacerC.73.9" x="360" yAnchor="#Cover.Bottom" y="-280" align="Bottom.Right" widthDock="Panel.Height.24" width="0" heightDock="Panel.Height.24" height="0" brightness="1.0"/>
-	<element name="#Cover_03" type="AlbumCover" id="Albums[3]" xAnchor="#SpacerC.62.5" x="200" yAnchor="#Cover.Bottom" y="-280" align="Bottom.Right" widthDock="Panel.Height.24" width="0" heightDock="Panel.Height.24" height="0" brightness="1.0"/>
-	<element name="#Cover_02" type="AlbumCover" id="Albums[2]" xAnchor="#SpacerC.47.3" x="80" yAnchor="#Cover.Bottom" y="-280" align="Bottom.Right" widthDock="Panel.Height.24" width="0" heightDock="Panel.Height.24" height="0" brightness="1.0"/>
-	<element name="#Cover_01" type="AlbumCover" id="Albums[1]" xAnchor="#SpacerC.27" x="10" yAnchor="#Cover.Bottom" y="-280" align="Bottom.Right" widthDock="Panel.Height.24" width="0" heightDock="Panel.Height.24" height="0" brightness="1.0"/>
+	<element name="#Cover_04" type="AlbumCover" id="Albums[4]" xAnchor="#SpacerC.73.9" x="360" yAnchor="#Cover.Bottom" y="-275" align="Bottom.Right" widthDock="Panel.Height.24" width="0" heightDock="Panel.Height.24" height="0" brightness="1.0"/>
+	<element name="#Cover_03" type="AlbumCover" id="Albums[3]" xAnchor="#SpacerC.62.5" x="200" yAnchor="#Cover.Bottom" y="-275" align="Bottom.Right" widthDock="Panel.Height.24" width="0" heightDock="Panel.Height.24" height="0" brightness="1.0"/>
+	<element name="#Cover_02" type="AlbumCover" id="Albums[2]" xAnchor="#SpacerC.47.3" x="80" yAnchor="#Cover.Bottom" y="-275" align="Bottom.Right" widthDock="Panel.Height.24" width="0" heightDock="Panel.Height.24" height="0" brightness="1.0"/>
+	<element name="#Cover_01" type="AlbumCover" id="Albums[1]" xAnchor="#SpacerC.27" x="10" yAnchor="#Cover.Bottom" y="-275" align="Bottom.Right" widthDock="Panel.Height.24" width="0" heightDock="Panel.Height.24" height="0" brightness="1.0"/>
 	<element name="#Cover_01" type="AlbumCover" id="Albums[0]" xAnchor="#SpacerC.0" x="10" yAnchor="#Cover.Bottom" y="8" align="Bottom.Right" widthDock="Panel.Height.76" width="0" heightDock="Panel.Height.76" height="0" brightness="1.0"/>
 
 	<!-- Album Info -->
@@ -38,25 +38,25 @@
 
 	<element type="Block" xAnchor="#SpacerC.0" x="0" yAnchor="#Cover.Bottom" y="0" widthDock="x:Panel.Right" width="0" heightDock="y:Panel.Bottom" height="0" fg="0,0,0,0" mouseOverFg="0,0,0,0" bg="0,0,0,0" mouseOverBg="0,0,0,0">
 	
-	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="Panel.Center" x="-90" yAnchor="Panel.Top" y="40" width="190" height="180" onClick="PlayNextAlbum"></element>
-	<element type="Text" xAnchor="Panel.Center" x="-105" yAnchor="Panel.Top" y="50" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="120" fg="0,0,0" onClick="PlayNextAlbum" showMouseHand="false">&#xE761;</element>
+	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="Panel.Center" x="-120" yAnchor="Panel.Top" y="10" width="257" height="257" onClick="PlayNextAlbum"></element>
+	<element type="Text" xAnchor="Panel.Center" x="-100" yAnchor="Panel.Top" y="60" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="120" fg="0,0,0" onClick="PlayNextAlbum" showMouseHand="false">&#xE761;</element>
 		
-	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="Panel.Center" x="-90" yAnchor="Panel.Center" y="50" width="200" height="200" onClick="PlayPrevious"></element>
+	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="Panel.Center" x="-120" yAnchor="Panel.Center" y="20" width="257" height="257" onClick="PlayPrevious"></element>
 	<element type="Text" xAnchor="Panel.Center" x="-125" yAnchor="Panel.Center" y="50" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="150" fg="0,0,0" onClick="PlayPrevious" showMouseHand="false">&#xE100;</element>
 
-	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="Panel.Center" x="195" yAnchor="Panel.Center" y="50" width="450" height="200"> onClick="PlayPause"></element>
+	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="Panel.Center" x="152" yAnchor="Panel.Center" y="20" width="530" height="257"> onClick="PlayPause"></element>
 	<element type="Text" xAnchor="Panel.Center" x="282" yAnchor="Panel.Center" y="50" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="150" fg="0,0,0" onClick="PlayPause" visibleTrigger="Playing">&#xE103;</element>
 	<element type="Text" xAnchor="Panel.Center" x="282" yAnchor="Panel.Center" y="50" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="150" fg="0,0,0" onClick="PlayPause" visibleTrigger="NotPlaying">&#xE102;</element>
 
-	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="#SpacerC.100" x="-125" yAnchor="Panel.Center" y="50" width="200" height="200" onClick="PlayNext"></element>
+	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="#SpacerC.100" x="-155" yAnchor="Panel.Center" y="20" width="257" height="257" onClick="PlayNext"></element>
 	<element type="Text" xAnchor="#SpacerC.100" x="-160" yAnchor="Panel.Center" y="50" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="150" fg="0,0,0" onClick="PlayNext" showMouseHand="false">&#xE101;</element>
 		
 <!-- Time -->
-	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="#SpacerC.100" x="-665" yAnchor="Panel.Top" y="40" width="450" height="180"></element>
-    <element type="Time" xAnchor="#SpacerC.100" x="-615" yAnchor="#Cover.Bottom" y="-810" widthDock="Panel.50" width="0" font="Jaguar" size="130" fg="0,0,0" brightness="1" ></element>
+	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="Panel.Center" x="152" yAnchor="Panel.Top" y="10" width="530" height="257"></element>
+    <element type="Time" xAnchor="#SpacerC.100" x="-660" yAnchor="#Cover.Bottom" y="-810" widthDock="Panel.50" width="0" font="Jaguar" size="130" fg="0,0,0" brightness="1" ></element>
 
 <!--Mute-->
-	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="#SpacerC.100" x="-115" yAnchor="#Cover.Bottom" y="-775" width="190" height="180"></element>
+	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="#SpacerC.100" x="-155" yAnchor="Panel.Top" y="10" width="257" height="257"></element>
     <element type="Text" xAnchor="#SpacerC.100" x="-130" yAnchor="#Cover.Bottom" y="-765" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="122" fg="0,0,0" onClick="VolumeToggleMute" visibleTrigger="VolumeNotMute">&#xE995;</element>
 	<element type="Text" xAnchor="#SpacerC.100" x="-130" yAnchor="#Cover.Bottom" y="-765" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="122" fg="0,0,0" onClick="VolumeToggleMute" visibleTrigger="VolumeMute">&#xE992;</element>
 
