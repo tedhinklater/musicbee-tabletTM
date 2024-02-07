@@ -9,5 +9,7 @@ This TM shows the current album art and 4 upcoming albums, has track skip button
 
 ![tablettm](https://github.com/tedhinklater/musicbee-tabletTM/assets/66086488/37199c3f-9d11-482a-89b1-14d3a9809eee)
 
-Drop buttongold.png in MusicBee\Plugins\TheaterMode.List\Images\Tablet (This folder doesn't exist so create it)
 Jaguar font used for the clock and Lemon Milk for the song details
+
+
+Drop buttongold.png in MusicBee\Plugins\TheaterMode.List\Images\Tablet
