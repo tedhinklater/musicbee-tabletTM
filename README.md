@@ -11,5 +11,4 @@ This TM shows the current album art and 4 upcoming albums, has track skip button
 
 Jaguar font used for the clock and Lemon Milk for the song details
 
-
-Drop buttongold.png in MusicBee\Plugins\TheaterMode.List\Images\Tablet
+Drop buttongold.png in MusicBee\Plugins\TheaterMode.List\Images\Tablet\
