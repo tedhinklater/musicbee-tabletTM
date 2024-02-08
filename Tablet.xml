@@ -4,7 +4,7 @@
 	<settings enableScaling="true" />
 
 	<!-- Background Cover -->
-	<element type="BackgroundAlbumCover" brightness="0.4" refreshInterval="EndOfTrack"/>
+	<element type="BackgroundAlbumCover" brightness="0.4" refreshInterval="10"/>
 
 	<!-- Background Gallery -->
 	<!-- <element name="#Gallery" type="Gallery" x="0" y="0" widthDock="x:Panel.Right" width="0" heightDock="y:Panel.Bottom" height="0" aspectRatio="zoomKeep" fillColor="192,0,0,0" interval="30" brightness="0.2" tags="artist" />
@@ -21,15 +21,15 @@
 
 	<!-- Album Carousel -->
 	<!-- Change "Tracks[x]" to "Albums[x]" if you don't want to see the same album cover repeated many times. -->
-	<element name="#Cover_04" type="AlbumCover" id="Albums[4]" xAnchor="#SpacerC.73.9" x="360" yAnchor="#Cover.Bottom" y="-275" align="Bottom.Right" widthDock="Panel.Height.24" width="0" heightDock="Panel.Height.24" height="0" brightness="1.0"/>
-	<element name="#Cover_03" type="AlbumCover" id="Albums[3]" xAnchor="#SpacerC.62.5" x="200" yAnchor="#Cover.Bottom" y="-275" align="Bottom.Right" widthDock="Panel.Height.24" width="0" heightDock="Panel.Height.24" height="0" brightness="1.0"/>
-	<element name="#Cover_02" type="AlbumCover" id="Albums[2]" xAnchor="#SpacerC.47.3" x="80" yAnchor="#Cover.Bottom" y="-275" align="Bottom.Right" widthDock="Panel.Height.24" width="0" heightDock="Panel.Height.24" height="0" brightness="1.0"/>
-	<element name="#Cover_01" type="AlbumCover" id="Albums[1]" xAnchor="#SpacerC.27" x="10" yAnchor="#Cover.Bottom" y="-275" align="Bottom.Right" widthDock="Panel.Height.24" width="0" heightDock="Panel.Height.24" height="0" brightness="1.0"/>
-	<element name="#Cover_01" type="AlbumCover" id="Albums[0]" xAnchor="#SpacerC.0" x="10" yAnchor="#Cover.Bottom" y="8" align="Bottom.Right" widthDock="Panel.Height.76" width="0" heightDock="Panel.Height.76" height="0" brightness="1.0"/>
+	<element name="#Cover_04" type="AlbumCover" id="Albums[4]" xAnchor="#SpacerC.110.2" x="0" yAnchor="Panel.50.5" y="0" align="Bottom.Right" widthDock="Panel.Height.24" width="0" heightDock="Panel.Height.24" height="0" brightness="1.0"/>
+	<element name="#Cover_03" type="AlbumCover" id="Albums[3]" xAnchor="#SpacerC.83" x="0" yAnchor="Panel.50.5" y="0" align="Bottom.Right" widthDock="Panel.Height.24" width="0" heightDock="Panel.Height.24" height="0" brightness="1.0"/>
+	<element name="#Cover_02" type="AlbumCover" id="Albums[2]" xAnchor="#SpacerC.55.7" x="0" yAnchor="Panel.50.5" y="0" align="Bottom.Right" widthDock="Panel.Height.24" width="0" heightDock="Panel.Height.24" height="0" brightness="1.0"/>
+	<element name="#Cover_01" type="AlbumCover" id="Albums[1]" xAnchor="#SpacerC.28.5" x="0" yAnchor="Panel.50.5" y="0" align="Bottom.Right" widthDock="Panel.Height.24" width="0" heightDock="Panel.Height.24" height="0" brightness="1.0"/>
+	<element name="#Cover_01" type="AlbumCover" id="Albums[0]" xAnchor="#SpacerC.1" x="0" yAnchor="Panel.76.7" y="0" align="Bottom.Right" widthDock="Panel.Height.76" width="0" heightDock="Panel.Height.76" height="0" brightness="1.0"/>
 
 	<!-- Album Info -->
-	<element type="Field" id="Title" xAnchor="#Cover.Left" x="-115" yAnchor="#Cover.Bottom" y="0" widthDock="x:Panel.80" width="400" align="left" font="lemon milk" style="Regular" size="82" fg="255,247,230" />
-	<element type="Field" id="Artist" xAnchor="#Cover.Left" x="-115" yAnchor="#Cover.Bottom" y="110" widthDock="x:Panel.80" width="300" align="left" font="lemon milk" style="Regular" size="82" fg="255,247,230" />
+	<element type="Field" id="Title" xAnchor="Panel.Left" x="0" yAnchor="Panel.76" y="0" widthDock="x:Panel.100" align="left" font="lemon milk" style="Regular" size="82" fg="255,255,255" />
+	<element type="Field" id="Artist" xAnchor="Panel.Left" x="0" yAnchor="Panel.87" y="0" widthDock="x:Panel.100" align="left" font="lemon milk" style="Regular" size="82" fg="225,225,225" />
 
 
 
@@ -38,30 +38,31 @@
 
 	<element type="Block" xAnchor="#SpacerC.0" x="0" yAnchor="#Cover.Bottom" y="0" widthDock="x:Panel.Right" width="0" heightDock="y:Panel.Bottom" height="0" fg="0,0,0,0" mouseOverFg="0,0,0,0" bg="0,0,0,0" mouseOverBg="0,0,0,0">
 	
-	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="Panel.Center" x="-120" yAnchor="Panel.Top" y="10" width="257" height="257" onClick="PlayNextAlbum"></element>
-	<element type="Text" xAnchor="Panel.Center" x="-100" yAnchor="Panel.Top" y="60" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="120" fg="0,0,0" onClick="PlayNextAlbum" showMouseHand="false">&#xE761;</element>
-		
-	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="Panel.Center" x="-120" yAnchor="Panel.Center" y="20" width="257" height="257" onClick="PlayPrevious"></element>
-	<element type="Text" xAnchor="Panel.Center" x="-125" yAnchor="Panel.Center" y="50" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="150" fg="0,0,0" onClick="PlayPrevious" showMouseHand="false">&#xE100;</element>
+	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="#SpacerC.2" x="0" yAnchor="Panel.1.2" y="0" widthDock="x:Panel.57.3" width="0" heightDock="y:Panel.25" onClick="PlayNextAlbum"></element>
+	<element type="Text" xAnchor="Panel.45.8" x="0" yAnchor="Panel.5.5" y="0" widthDock="Panel.50" width="0" font="lemon milk" style="Regular" size="45" fg="0,0,0" onClick="PlayNextAlbum" showMouseHand="false">NEXT</element>
+	<element type="Text" xAnchor="Panel.44.2" x="0" yAnchor="Panel.13" y="0" widthDock="Panel.50" width="0" font="lemon milk" style="Regular" size="45" fg="0,0,0" onClick="PlayNextAlbum" showMouseHand="false">ALBUM</element>
+	
+	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="#SpacerC.2" x="0" yAnchor="Panel.52" y="0" widthDock="x:Panel.57.3" heightDock="y:Panel.76" onClick="PlayPrevious"></element>
+	<element type="Text" xAnchor="Panel.43.5" x="0" yAnchor="Panel.54.5" y="0" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="150" fg="0,0,0" onClick="PlayPrevious" showMouseHand="false">&#xE100;</element>
 
-	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="Panel.Center" x="152" yAnchor="Panel.Center" y="20" width="530" height="257"> onClick="PlayPause"></element>
-	<element type="Text" xAnchor="Panel.Center" x="282" yAnchor="Panel.Center" y="50" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="150" fg="0,0,0" onClick="PlayPause" visibleTrigger="Playing">&#xE103;</element>
-	<element type="Text" xAnchor="Panel.Center" x="282" yAnchor="Panel.Center" y="50" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="150" fg="0,0,0" onClick="PlayPause" visibleTrigger="NotPlaying">&#xE102;</element>
+	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="#SpacerC.29.5" yAnchor="Panel.52" y="0" widthDock="x:Panel.85.7" heightDock="y:Panel.76"> onClick="PlayPause"></element>
+	<element type="Text" xAnchor="Panel.64.8" x="0" yAnchor="Panel.54.5" y="0" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="150" fg="0,0,0" onClick="PlayPause" visibleTrigger="Playing">&#xE103;</element>
+	<element type="Text" xAnchor="Panel.64.8" x="0" yAnchor="Panel.54.5" y="0" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="150" fg="0,0,0" onClick="PlayPause" visibleTrigger="NotPlaying">&#xE102;</element>
 
-	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="#SpacerC.100" x="-155" yAnchor="Panel.Center" y="20" width="257" height="257" onClick="PlayNext"></element>
-	<element type="Text" xAnchor="#SpacerC.100" x="-160" yAnchor="Panel.Center" y="50" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="150" fg="0,0,0" onClick="PlayNext" showMouseHand="false">&#xE101;</element>
+	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="#SpacerC.84.5" x="0" yAnchor="Panel.52" y="0" widthDock="x:Panel.99.6" heightDock="y:Panel.76" onClick="PlayNext"></element>
+	<element type="Text" xAnchor="Panel.86.2" x="0" yAnchor="Panel.54.5" y="0" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="150" fg="0,0,0" onClick="PlayNext" showMouseHand="false">&#xE101;</element>
 		
 <!-- Time -->
-	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="Panel.Center" x="152" yAnchor="Panel.Top" y="10" width="530" height="257"></element>
-    <element type="Time" xAnchor="#SpacerC.100" x="-660" yAnchor="#Cover.Bottom" y="-810" widthDock="Panel.50" width="0" font="Jaguar" size="130" fg="0,0,0" brightness="1" ></element>
+	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="#SpacerC.29.5" x="0" yAnchor="Panel.1.2" y="0" widthDock="x:Panel.85.7" heightDock="y:Panel.25"></element>
+    <element type="Time" xAnchor="Panel.62.5" x="0" yAnchor="Panel.2" y="0" widthDock="x:Panel.82.5" font="Jaguar" size="130" fg="0,0,0" brightness="1" align="center"></element>
 
 <!--Mute-->
-	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="#SpacerC.100" x="-155" yAnchor="Panel.Top" y="10" width="257" height="257"></element>
-    <element type="Text" xAnchor="#SpacerC.100" x="-130" yAnchor="#Cover.Bottom" y="-765" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="122" fg="0,0,0" onClick="VolumeToggleMute" visibleTrigger="VolumeNotMute">&#xE995;</element>
-	<element type="Text" xAnchor="#SpacerC.100" x="-130" yAnchor="#Cover.Bottom" y="-765" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="122" fg="0,0,0" onClick="VolumeToggleMute" visibleTrigger="VolumeMute">&#xE992;</element>
+	<element type="Icon" image="Images\Tablet\buttongold.png" xAnchor="#SpacerC.84.5" x="0" yAnchor="Panel.1.2" y="0" widthDock="x:Panel.99.6" heightDock="y:Panel.25"></element>
+    <element type="Text" xAnchor="Panel.87.5" x="0" yAnchor="Panel.5" y="0" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="122" fg="0,0,0" onClick="VolumeToggleMute" visibleTrigger="VolumeNotMute">&#xE995;</element>
+	<element type="Text" xAnchor="Panel.87.5" x="0" yAnchor="Panel.5" y="0" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="122" fg="0,0,0" onClick="VolumeToggleMute" visibleTrigger="VolumeMute">&#xE992;</element>
 
 <!-- Progress Bar -->
-	<element type="ProgressBar" xAnchor="Panel.Left" x="0" yAnchor="Panel.Bottom" y="-5" widthDock="Panel.100" width="0" height="5"  fg="255,247,230" bg="0,0,0,0" ></element>
+	<element type="ProgressBar" xAnchor="Panel.Left" x="0" yAnchor="Panel.99.5" y="0" widthDock="Panel.100" width="0" height="5" fg="225,225,225" bg="0,0,0,0" ></element>
 
 	</element>
 </root>
