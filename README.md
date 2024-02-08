@@ -1,5 +1,5 @@
 # musicbee-tabletTM
-A Theatre Mode skin optimized for an 8-10" device at 1080p
+A Theatre Mode skin optimized for an 8-10" device
 
 
 I have a 10" Windows 10 Tablet on my wall running MusicBee, but it was fiddly to control.
